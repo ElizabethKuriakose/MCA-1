@@ -4,6 +4,22 @@
 .r4-h2{
     font-size: larger;
 }
-
-
+footer{
+    height: 30px;
+    background-color: black;
+}
+th{
+    padding: 1em;
+    border: 1px solid black;
+    align-items: center;
+    text-align: center;
+}
+td{
+    padding: 1em;
+    border: 1px solid black;
+}
+table{
+    border: 1px solid black;
+    width: 90%;
+}
   
