@@ -7,9 +7,28 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link href="library/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <button onclick="openNav()" id="myBtn" title="Go to top">
+        <i class="fa fa-align-justify"></i>
+    </button>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="../index.html">MAIN</a>
+        <a href="#carouselExampleSlidesOnly">HOME</a>
+        <a href="#module1">Module I</a>
+        <a href="#module2">Module II</a>
+        <a href="#module3">Module III</a>
+        <a href="#module4">Module IV</a>
+        <a href="#module5">Module V</a>
+    </div>
+
+    <!-- Use any element to open the sidenav -->
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -18,155 +37,155 @@
         </div>
     </div>
 
-    <section>
+    <section id="module1">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 mt-5">
-                    <pre>
-    <b class="red r4-h2">SETS  </b>
+                   
+    <b class="red r4-h2">SETS  </b><br><br>
 
-    collection of well defined and distinct objects, considered as an object in its own right
+    collection of well defined and distinct objects, considered as an object in its own right<br><br>
 
-        N : the set of all natural numbers
-        Z : the set of all integers
-        Q : the set of all rational numbers
-        R : the set of real numbers
-        Z+: the set of positive integers
-        Q+: the set of positive rational numbers
-        R+: the set of positive real numbers
+        N : the set of all natural numbers<br>
+        Z : the set of all integers<br>
+        Q : the set of all rational numbers<br>
+        R : the set of real numbers<br>
+        Z+: the set of positive integers<br>
+        Q+: the set of positive rational numbers<br>
+        R+: the set of positive real numbers<br><br>
 
-        (i) Objects, elements and members of a set are synonymous terms.
-        (ii) Sets are usually denoted by capital letters A, B, C, X, Y, Z, etc.
-        (iii) The elements of a set are represented by small letters a, b, c, x, y, z, etc.
+        (i) Objects, elements and members of a set are synonymous terms.<br>
+        (ii) Sets are usually denoted by capital letters A, B, C, X, Y, Z, etc.<br>
+        (iii) The elements of a set are represented by small letters a, b, c, x, y, z, etc.<br><br>
  
-        <b class="red r4-h2">Representing a set </b>
+        <b class="red r4-h2">Representing a set </b><br><br>
 
-        (i) Roster or tabular form
-        (ii) Set-builder form.
+        (i) Roster or tabular form<br>
+        (ii) Set-builder form.<br><br>
 
-        <img src="library/img/m1_s1.png">
-
-
-        example 
-
-        <img src="library/img/m2.png">
+        <img src="library/img/m1_s1.png" class="mx-auto d-block img-fluid"><br>
 
 
-        <b class="red r4-h2">Empty set / Null set / Void set</b>
+        example <br>
 
-        B = { x : x is a student presently studying in both Classes X and XI }
-        In mathematics, the empty set is the unique set having no elements; 
-        its size or cardinality (count of elements in a set) is zero. 
+        <img src="library/img/m2.png" class="mx-auto d-block img-fluid"><br><br>
 
-        Some axiomatic set theories ensure that the empty set exists by including an axiom of empty set,
-         while in other theories, its existence can be deduced.
-        empty set is denoted by the symbol φ or { }
+
+        <b class="red r4-h2">Empty set / Null set / Void set</b><br><br>
+
+        B = { x : x is a student presently studying in both Classes X and XI }<br>
+        In mathematics, the empty set is the unique set having no elements; <br>
+        its size or cardinality (count of elements in a set) is zero. <br>
+
+        Some axiomatic set theories ensure that the empty set exists by including an axiom of empty set,<br>
+         while in other theories, its existence can be deduced.<br>
+        empty set is denoted by the symbol φ or { }<br>
 
          
-        <b class="red r4-h2">Finite and Infinite Sets</b>
+        <b class="red r4-h2">Finite and Infinite Sets</b><br><br>
 
-        A = {1, 2, 3, 4, 5}
-        C = { men living presently in different parts of the world}
-        A set which is empty or consists of a definite number of elements is called finite 
-        Otherwise, the set is called infinite.            
+        A = {1, 2, 3, 4, 5}<br>
+        C = { men living presently in different parts of the world}<br>
+        A set which is empty or consists of a definite number of elements is called finite <br>
+        Otherwise, the set is called infinite.            <br><br>
     
 
-        <b class="red r4-h2">Equal Sets</b>
+        <b class="red r4-h2">Equal Sets</b><br><br>
 
-        Let A = {1, 2, 3, 4} and B = {3, 1, 4, 2}. Then A = B
+        Let A = {1, 2, 3, 4} and B = {3, 1, 4, 2}. Then A = B<br>
 
-        sets A = {1, 2, 3} and B = {2, 2, 1, 3, 3} are equal
+        sets A = {1, 2, 3} and B = {2, 2, 1, 3, 3} are equal<br>
 
-        <b class="red r4-h2">Subsets</b>
-        A set A is said to be a subset of a set B if every element of A is also an element of B
-        A ⊂ B if a ∈ A ⇒ a ∈ B
-
-
-        example
+        <b class="red r4-h2">Subsets</b><br>
+        A set A is said to be a subset of a set B if every element of A is also an element of B<br>
+        A ⊂ B if a ∈ A ⇒ a ∈ B<br><br>
 
 
-        <img src="library/img/m3.png">
+        example<br><br>
 
 
-        <b class="red r4-h2">Subsets of set of real numbers</b>
-
-        <img src="library/img/m4.png">
-
-        <img src="library/img/m5.png">
-
-        <img src="library/img/m6.png">
+        <img src="library/img/m3.png" class="mx-auto d-block img-fluid"><br><br>
 
 
-        <b class="red r4-h2">Power Set</b>
+        <b class="red r4-h2">Subsets of set of real numbers</b><br><br>
 
-        The collection of all subsets of a set A is called the power set of A 
-        It is denoted by P(A). In P(A), every element is a set
-        P( A ) = { φ,{ 1 }, { 2 }, { 1,2 }}
+        <img src="library/img/m4.png" class="mx-auto d-block img-fluid"><br>
+
+        <img src="library/img/m5.png" class="mx-auto d-block img-fluid"><br>
+
+        <img src="library/img/m6.png" class="mx-auto d-block img-fluid"><br><br>
 
 
-        <b class="red r4-h2">Universal Set</b>
+        <b class="red r4-h2">Power Set</b><br><br>
 
-        <img src="library/img/m7.png">
+        The collection of all subsets of a set A is called the power set of A <br>
+        It is denoted by P(A). In P(A), every element is a set<br>
+        P( A ) = { φ,{ 1 }, { 2 }, { 1,2 }}<br><br>
 
-        <b class="red r4-h2">Venn Diagrams</b>
 
-        <img src="library/img/m8.png">
+        <b class="red r4-h2">Universal Set</b><br><br>
 
-        <b class="red r4-h2">Operations on Sets</b>
+        <img src="library/img/m7.png" class="mx-auto d-block img-fluid"><br><br>
 
-        Union of sets
-        A ∪ B and usually read as ‘A union B’ 
-        Intersection of sets 
-        A ∩ B = {x : x ∈ A and x ∈ B}
-        Difference of sets
-        A – B and read as“ A minus B”
+        <b class="red r4-h2">Venn Diagrams</b><br>
 
-        <b class="red r4-h2">Union of sets</b>
+        <img src="library/img/m8.png" class="mx-auto d-block img-fluid"><br>
 
-        (i) A ∪ B = B ∪ A (Commutative law)
-        (ii) ( A ∪ B ) ∪ C = A ∪ ( B ∪ C) (Associative law )
-        (iii) A ∪ φ = A (Law of identity element, φ is the identity of ∪)
-        (iv) A ∪ A = A (Idempotent law)
-        (v) U ∪ A = U (Law of U)
+        <b class="red r4-h2">Operations on Sets</b><br><br>
 
-        <img src="library/img/m9.png">
+        Union of sets<br>
+        A ∪ B and usually read as ‘A union B’ <br>
+        Intersection of sets <br>
+        A ∩ B = {x : x ∈ A and x ∈ B}<br>
+        Difference of sets<br>
+        A – B and read as“ A minus B”<br><br>
 
-        <b class="red r4-h2">Intersection of sets</b>
+        <b class="red r4-h2">Union of sets</b><br>
+        <br>
+        (i) A ∪ B = B ∪ A (Commutative law)<br>
+        (ii) ( A ∪ B ) ∪ C = A ∪ ( B ∪ C) (Associative law )<br>
+        (iii) A ∪ φ = A (Law of identity element, φ is the identity of ∪)<br>
+        (iv) A ∪ A = A (Idempotent law)<br>
+        (v) U ∪ A = U (Law of U)<br><br>
 
-        (i) A ∩ B = B ∩ A (Commutative law).
-        (ii) ( A ∩ B ) ∩ C = A ∩ ( B ∩ C ) (Associative law).
-        (iii) φ ∩ A = φ, U ∩ A = A (Law of φ and U).
-        (iv) A ∩ A = A (Idempotent law)
-        (v) A ∩ ( B ∪ C ) = ( A ∩ B ) ∪ ( A ∩ C ) (Distributive law ) i. e.,
-         ∩ distributes over ∪
+        <img src="library/img/m9.png" class="mx-auto d-block img-fluid"><br><br>
 
-         <img src="library/img/m10.png">
+        <b class="red r4-h2">Intersection of sets</b><br><br>
 
-         <b class="red r4-h2">Difference of sets</b>
+        (i) A ∩ B = B ∩ A (Commutative law).<br>
+        (ii) ( A ∩ B ) ∩ C = A ∩ ( B ∩ C ) (Associative law).<br>
+        (iii) φ ∩ A = φ, U ∩ A = A (Law of φ and U).<br>
+        (iv) A ∩ A = A (Idempotent law)<br>
+        (v) A ∩ ( B ∪ C ) = ( A ∩ B ) ∪ ( A ∩ C ) (Distributive law ) i. e.,<br>
+         ∩ distributes over ∪<br><br>
 
-         A – B = { x : x ∈ A and x ∉ B }
+         <img src="library/img/m10.png" class="mx-auto d-block img-fluid"><br>
+
+         <b class="red r4-h2">Difference of sets</b><br>
+
+         A – B = { x : x ∈ A and x ∉ B }<br>
                     
-         <img src="library/img/m11.jpg">
+         <img src="library/img/m11.jpg" class="mx-auto d-block img-fluid"><br>
 
-         <b class="red r4-h2">Complement of a Set</b>
+         <b class="red r4-h2">Complement of a Set</b><br>
 
          Let U be the universal set and A a subset of U. Then the complement of A is the set of all elements of U which are not the elements of A. 
-         Symbolically, we write A′ to denote the complement of A with respect to U. Thus,
-         A′ = {x : x ∈ U and x ∉ A }. Obviously A′ = U – A
+         Symbolically, we write A′ to denote the complement of A with respect to U. Thus,<br><br>
+         A′ = {x : x ∈ U and x ∉ A }. Obviously A′ = U – A<br>
                     
-         <img src="library/img/m12.png">
+         <img src="library/img/m12.png" class="mx-auto d-block img-fluid"><br><br>
 
-         <b class="red r4-h2">Properties of Complement Sets</b>
+         <b class="red r4-h2">Properties of Complement Sets</b><br><br>
 
-         1. Complement laws: (i) A ∪ A′ = U (ii) A ∩ A′ = φ
-         2. De Morgan’s law: (i) (A ∪ B)´ = A′ ∩ B′ (ii) (A ∩ B)′ = A′ ∪ B′
-         3. Law of double complementation : (A′)′ = A
-         4. Laws of empty set and universal set φ′ = U and U′ = φ
+         1. Complement laws: (i) A ∪ A′ = U (ii) A ∩ A′ = φ<br>
+         2. De Morgan’s law: (i) (A ∪ B)´ = A′ ∩ B′ (ii) (A ∩ B)′ = A′ ∪ B′<br>
+         3. Law of double complementation : (A′)′ = A<br>
+         4. Laws of empty set and universal set φ′ = U and U′ = φ<br><br><br>
 
 
 
     
-    </pre>
+  
 
                     
                 </div>
@@ -176,13 +195,17 @@
 
     
 
-    <script src="library/js/javascript.js"></script>
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="library/js/javascript.js"></script>
 </body>
 
 </html>
