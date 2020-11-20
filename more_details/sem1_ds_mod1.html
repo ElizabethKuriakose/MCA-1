@@ -52,7 +52,140 @@
                     <b class="red r4-h2">DATA STUCTURE </b><br><br>
 
                     <img src="library/img/ds_2.png" class="mx-auto d-block img-fluid"><br><br>
-                    
+
+                    <b class="red r4-h2">ARRAY </b><br><br>
+                    <p>
+                        Array is a container which can hold a fix number of items and these items should be of the same
+                        type. Most of the data structures make use of arrays to implement their algorithms. Following
+                        are the important terms to understand the concept of Array
+                    </p><br><br>
+                    <img src="library/img/" class="mx-auto d-block img-fluid"><br><br>
+
+                    <div class="table-responsive">
+                        <table class="mx-auto">
+                            <tbody>
+                                <tr>
+                                    <th>Element </th>
+                                    <td>
+                                        Each item stored in an array is called an element. </td>
+                                </tr>
+                                <tr>
+                                    <th>Index </th>
+                                    <td> Each location of an element in an array has a numerical index, which is used to
+                                        identify
+                                        the element. </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><br><br>
+                    <div class="table-responsive">
+                        <table class="mx-auto">
+                            <tbody>
+                                <tr>
+                                    <th>Properties/characteristics of an Array </th>
+
+                                </tr>
+                                <tr>
+                                    <td>1) An array is a derived data type, which is defined using basic data types like
+                                        int, char, float and even structures (which is called the array of structures).
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>2) Array elements are stored in contiguous memory blocks/subsequent memory
+                                        blocks in primary memory. </td>
+                                </tr>
+                                <tr>
+                                    <td>3) Array name represents its base address. The base address is the address of
+                                        the first element of the array. </td>
+                                </tr>
+                                <tr>
+                                    <td>4) Array’s index starts with 0 and ends with N-1. Here, N stands for the number
+                                        of elements. For Example, there is an integer array of 5 elements, then it’s
+                                        indexing will be 0 to 4. </td>
+                                </tr>
+                                <tr>
+                                    <td>5) Only constants and literal values (an integer value like 5, 10, 12,...) can
+                                        be assigned the number of elements in an array. </td>
+                                </tr>
+                                <tr>
+                                    <td>6) While declaring an array, we can also assign each element with 0 like this.
+
+                                        <br> <br>Eg: int age[10]={0}; </td>
+                                </tr>
+                                <tr>
+                                    <td>7) There is no need to provide the number of elements while declaring an array,
+                                        but we have to provide the values at the time of declaration. In this case,
+                                        array size will be the number of values that you have provided.
+
+                                        <br> <br>Eg: int age[]={21,22,25,45,56}; </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><br><br>
+
+                    <div class="table-responsive">
+                        <table class="mx-auto">
+                            <tbody>
+                                <tr>
+                                    <td>  <pre>
+//SAMPLE PROGRAME
+
+#include <stdio.h>
+main() {
+	int Array[] = {1,3,5,7,8};
+	int i = 0;   
+	int n = 5;
+	printf("The original array elements are :\n");
+	
+	for(i = 0; i &lt;n; i++) {
+		printf("Array_Index_value[%d] = %d \n", i, Array[i]);
+	}
+}
+       
+                                      
+                                           
+                                        </pre>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><br><br><br>
+
+                    <div class="table-responsive">
+                        <table class="mx-auto">
+                            <tbody>
+                                <tr>
+                                    <th colspan="2">Basic Operations </th>
+                                </tr>
+                                <tr>
+                                    <td>Traverse </td>
+                                    <td>print all the array elements one by one. </td>
+                                </tr>
+                                <tr>
+                                    <td>Insertion </td>
+                                    <td>Adds an element at the given index. </td>
+                                </tr>
+                                <tr>
+                                    <td>Deletion </td>
+                                    <td>Deletes an element at the given index. </td>
+                                </tr>
+                                <tr>
+                                    <td>Search </td>
+                                    <td>Searches an element using the given index or by the value. </td>
+                                </tr>
+                                <tr>
+                                    <td>Update </td>
+                                    <td>Updates an element at the given index. </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><br><br><br>
+
+
+
+
+
 
 
 

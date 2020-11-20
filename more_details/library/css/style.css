@@ -35,6 +35,9 @@ body{
 img{
     background-color:white;
 }
+mark{
+   background-color: yellow;
+}
 /*...........................button................................................................*/
 
 #myBtn {
