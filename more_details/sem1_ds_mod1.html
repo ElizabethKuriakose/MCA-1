@@ -127,7 +127,8 @@
                         <table class="mx-auto">
                             <tbody>
                                 <tr>
-                                    <td>  <pre>
+                                    <td>
+                                        <pre>
 //SAMPLE PROGRAME
 
 #include <stdio.h>
@@ -183,11 +184,220 @@ main() {
                     </div><br><br><br>
 
 
+                    <b class="red r4-h2">STACK </b><br><br>
+                    <p>A stack is an Abstract Data Type (ADT), commonly used in most programming languages. It is named
+                        stack as it behaves like a real-world stack</p>
+                    <ul>
+                        <li>A real-world stack allows operations at one end only </li>
+                        <li> LIFO data structure (Last-in-first-out)</li>
+                        <li>In stack terminology, insertion operation is called PUSH operation and removal operation is
+                            called POP operation.</li>
+                    </ul>
+                    <br>
+                    <img src="library/img/stack.png" class="mx-auto d-block img-fluid"><br><br>
+                    <p>A stack can be implemented by means of Array, Structure, Pointer, and Linked List. Stack can
+                        either be a fixed size one or it may have a sense of dynamic resizing</p>
+
+
+                    <div class="table-responsive">
+                        <table class="mx-auto">
+                            <tbody>
+                                <tr>
+                                    <th colspan="2">Basic Operations </th>
+                                </tr>
+                                <tr>
+                                    <td>push() </td>
+                                    <td>Pushing (storing) an element on the stack. </td>
+                                </tr>
+                                <tr>
+                                    <td>pop() </td>
+                                    <td>Removing (accessing) an element from the stack. </td>
+                                </tr>
+                                <tr>
+                                    <td>peek() </td>
+                                    <td>get the top data element of the stack, without removing it. </td>
+                                </tr>
+                                <tr>
+                                    <td>isFull() </td>
+                                    <td>check if stack is full. </td>
+                                </tr>
+                                <tr>
+                                    <td>isEmpty() </td>
+                                    <td>check if stack is empty. </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><br><br><br>
+
+                    <div class="table-responsive">
+                        <table class="mx-auto">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <pre>
+    //peek operation
+    
+    int peek() {
+        return stack[top];
+     }
+
+     //check stack is full
+
+     bool isfull() {
+        if(top == MAXSIZE)
+           return true;
+        else
+           return false;
+     }
+
+     //check stack is empty
+
+     bool isempty() {
+        if(top == -1)
+           return true;
+        else
+           return false;
+     }
+
+     //stack PUSH
+
+     void push(int data) {
+        if(!isFull()) {
+           top = top + 1;   
+           stack[top] = data;
+        } else {
+           printf("Could not insert data, Stack is full.\n");
+        }
+     }
+
+     //stack POP
+
+     int pop(int data) {
+
+        if(!isempty()) {
+           data = stack[top];
+           top = top - 1;   
+           return data;
+        } else {
+           printf("Could not retrieve data, Stack is empty.\n");
+        }
+     }
+           
+                                          
+                                               
+                                            </pre>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><br><br><br>
+
+
                     <b class="red r4-h2">QUEUE </b><br><br>
-                    
+                    <p>Queue is an abstract data structure, somewhat similar to Stacks. Unlike stacks, a queue is open
+                        at both its ends. One end is always used to insert data (enqueue) and the other is used to
+                        remove data (dequeue). Queue follows First-In-First-Out methodology, i.e., the data item stored
+                        first will be accessed first.</p>
 
+                    <img src="library/img/queue.png" class="mx-auto d-block img-fluid" style="width: 50%;"><br><br>
+                    <p>As in stacks, a queue can also be implemented using Arrays, Linked-lists, Pointers and
+                        Structures. For the sake of simplicity, we shall implement queues using one-dimensional array.
+                    </p><br>
 
+                    <div class="table-responsive">
+                        <table class="mx-auto">
+                            <tbody>
+                                <tr>
+                                    <th colspan="2">Basic Operations </th>
+                                </tr>
+                                <tr>
+                                    <td>enqueue() </td>
+                                    <td>add (store) an item to the queue. </td>
+                                </tr>
+                                <tr>
+                                    <td>dequeue() </td>
+                                    <td>remove (access) an item from the queue. </td>
+                                </tr>
+                                <tr>
+                                    <td>peek() </td>
+                                    <td>get the top data element of the stack, without removing it. </td>
+                                </tr>
+                                <tr>
+                                    <td>isFull() </td>
+                                    <td>check if stack is full. </td>
+                                </tr>
+                                <tr>
+                                    <td>isEmpty() </td>
+                                    <td>check if stack is empty. </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><br><br><br>
 
+                    <div class="table-responsive">
+                        <table class="mx-auto">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <pre>
+    //peek operation
+    
+    int peek() {
+        return queue[front];
+     }
+
+     //check queue is full
+
+     bool isfull() {
+        if(rear == MAXSIZE - 1)
+           return true;
+        else
+           return false;
+     }
+
+     //check queue is empty
+
+     bool isempty() {
+        if(front &lt; 0 || front > rear) 
+           return true;
+        else
+           return false;
+     }
+
+     //Enqueue Operation
+
+     int enqueue(int data){      
+        if(isfull())
+          return 0;
+   
+        rear = rear + 1;
+        queue[rear] = data;
+   
+        return 1;
+    }
+
+     //Dequeue Operation
+
+     int dequeue() {
+        if(isempty())
+           return 0;
+     
+        int data = queue[front];
+        front = front + 1;
+     
+        return data;
+     }
+           
+                                          
+                                               
+                                            </pre>
+
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><br><br><br>
 
 
 
