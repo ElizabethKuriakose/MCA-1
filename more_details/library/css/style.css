@@ -4,6 +4,9 @@
 .r4-h2{
     font-size: larger;
     text-transform: uppercase;
+    width: 100%;
+    
+    
 }
 footer{
     height: 30px;
@@ -31,6 +34,7 @@ tr{
 }
 body{
     background-color: #e6e6e6;
+    margin:10px;
 }
 img{
     background-color:white;
