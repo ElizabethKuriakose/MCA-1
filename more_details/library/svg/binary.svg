@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-64.285714"
-     inkscape:cy="407.80442"
+     inkscape:cx="297.07618"
+     inkscape:cy="522.09013"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -52,12 +52,12 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g4833"
-       inkscape:export-filename="C:\Users\Jobin\Downloads\e3.png"
+       id="g998"
+       inkscape:export-filename="C:\Users\Jobin\Desktop\MCA\g998.png"
        inkscape:export-xdpi="96"
        inkscape:export-ydpi="96">
       <rect
-         style="fill:#999999;stroke-width:0.27147302;fill-opacity:0"
+         style="fill:#999999;fill-opacity:0;stroke-width:0.27147302"
          y="21.833334"
          x="-264.58334"
          height="331.8631"
@@ -75,7 +75,7 @@
              width="631.42859"
              id="rect3719" /></flowRegion><flowPara
            id="flowPara3721">One's Complement</flowPara></flowRoot>      <flowRoot
-         style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
          id="flowRoot3747"
          xml:space="preserve"><flowRegion
            id="flowRegion3749"><rect
@@ -84,7 +84,7 @@
              height="817.14288"
              width="534.28571"
              id="rect3751" /></flowRegion><flowPara
-           id="flowPara3753"></flowPara></flowRoot>      <text
+           id="flowPara3753" /></flowRoot>      <text
          id="text3757"
          y="92.136902"
          x="-194.27975"
@@ -122,7 +122,7 @@
            x="-148.92261"
            sodipodi:role="line" /></text>
       <flowRoot
-         style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
          id="flowRoot3773"
          xml:space="preserve"><flowRegion
            id="flowRegion3775"><rect
@@ -131,7 +131,7 @@
              height="388.57144"
              width="434.28571"
              id="rect3777" /></flowRegion><flowPara
-           id="flowPara3779"></flowPara></flowRoot>      <text
+           id="flowPara3779" /></flowRoot>      <text
          id="text3783"
          y="161.68452"
          x="-195.03572"
@@ -151,14 +151,12 @@
            style="stroke-width:0.26458332"
            y="188.14285"
            x="-195.03572"
-           sodipodi:role="line">unsigned representation   -&gt;  <tspan
-   id="tspan3837"
-   style="fill:#ff0000">0</tspan>0000000</tspan><tspan
+           sodipodi:role="line">unsigned representation   -&gt;  00000000</tspan><tspan
            id="tspan3797"
            style="stroke-width:0.26458332"
            y="201.37202"
            x="-195.03572"
-           sodipodi:role="line"></tspan><tspan
+           sodipodi:role="line" /><tspan
            id="tspan3801"
            style="stroke-width:0.26458332"
            y="214.6012"
@@ -178,19 +176,19 @@
            style="stroke-width:0.26458332"
            y="254.28868"
            x="-195.03572"
-           sodipodi:role="line"></tspan><tspan
+           sodipodi:role="line" /><tspan
            id="tspan3807"
            style="stroke-width:0.26458332"
            y="267.51785"
            x="-195.03572"
-           sodipodi:role="line">  take complement   -&gt;  1111111</tspan><tspan
+           sodipodi:role="line">  take complement   -&gt;  11111111</tspan><tspan
            id="tspan3809"
            style="stroke-width:0.26458332"
            y="280.74701"
            x="-195.03572"
            sodipodi:role="line">  representation       -&gt; <tspan
    id="tspan3835"
-   style="fill:#ff0000"> 1</tspan>1111111   </tspan></text>
+   style="fill:#ff0000"> </tspan>11111111   </tspan></text>
       <path
          inkscape:connector-curvature="0"
          id="path3813"
@@ -198,12 +196,12 @@
          style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <flowRoot
          transform="matrix(-0.0080562,-0.26446065,0.26446065,-0.0080562,-366.02201,298.50102)"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
          id="flowRoot3827"
          xml:space="preserve"><flowRegion
-           style="fill:#ff0000;"
+           style="fill:#ff0000"
            id="flowRegion3829"><rect
-             style="fill:#ff0000;"
+             style="fill:#ff0000"
              y="482.51968"
              x="85.714287"
              height="651.42859"
@@ -229,9 +227,7 @@
            style="stroke-width:0.26458332"
            y="181.33116"
            x="110.78652"
-           sodipodi:role="line">unsigned representation   -&gt;  <tspan
-   id="tspan3837-2"
-   style="fill:#ff0000;stroke-width:0.26458332">0</tspan>0000000</tspan><tspan
+           sodipodi:role="line">unsigned representation   -&gt;  00000000</tspan><tspan
            id="tspan3797-8"
            style="stroke-width:0.26458332"
            y="194.56033"
@@ -261,23 +257,19 @@
            style="stroke-width:0.26458332"
            y="260.70618"
            x="110.78652"
-           sodipodi:role="line">  take complement   -&gt;  <tspan
-   id="tspan3931"
-   style="fill:#ff0000">1</tspan>1111111</tspan><tspan
+           sodipodi:role="line">  take complement   -&gt;  11111111</tspan><tspan
            id="tspan3929"
            style="stroke-width:0.26458332"
            y="273.93533"
            x="110.78652"
-           sodipodi:role="line">  add 1 to least significant bit (LSB)  -&gt; <tspan
-   id="tspan3939"
-   style="fill:#ff0000">0</tspan>0000000</tspan><tspan
+           sodipodi:role="line">  add 1 to least significant bit (LSB)  -&gt; 00000000</tspan><tspan
            id="tspan3809-7"
            style="stroke-width:0.26458332"
            y="287.16449"
            x="110.78652"
            sodipodi:role="line">  representation       -&gt; <tspan
    id="tspan3835-5"
-   style="fill:#ff0000;stroke-width:0.26458332"> 0</tspan>0000000   </tspan></text>
+   style="fill:#ff0000;stroke-width:0.26458332"> </tspan>00000000   </tspan></text>
       <flowRoot
          transform="matrix(-0.0080562,-0.26446065,0.26446065,-0.0080562,-63.448173,299.68127)"
          style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
