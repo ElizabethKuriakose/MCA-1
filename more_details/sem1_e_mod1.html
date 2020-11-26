@@ -190,28 +190,34 @@
                                     <th>Represent in Signed magnitude form </th>
                                 </tr>
                                 <tr>
-                                    <td> 
-                                       <mark> Number = 12 </mark><br><br> Binary = 1100 <br>8 bit representation : 00001100 <br> sign bit change : 00001100<br><br>
-                                       <mark> Number = -12</mark> <br><br> Binary = 1100 <br>8 bit representation : 00001100 <br> sign bit change : 10001100<br><br>
+                                    <td>
+                                        <mark> Number = 12 </mark><br><br> Binary = 1100 <br>8 bit representation :
+                                        00001100 <br> sign bit change : 00001100<br><br>
+                                        <mark> Number = -12</mark> <br><br> Binary = 1100 <br>8 bit representation :
+                                        00001100 <br> sign bit change : 10001100<br><br>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <th>Represent signed number in  1's complement form  </th>
+                                    <th>Represent signed number in 1's complement form </th>
                                 </tr>
                                 <tr>
-                                    <td><mark>Number = 12 </mark><br><br> Binary = 1100 <br>8 bit representation : 00001100 <br> not take complement : 00001100<br><br>
-                                        <mark> Number = -12</mark> <br><br> Binary = 1100 <br>8 bit representation : 00001100 <br> take complement : 11110011<br><br>
-                                      </td>
-                                   
+                                    <td><mark>Number = 12 </mark><br><br> Binary = 1100 <br>8 bit representation :
+                                        00001100 <br> not take complement : 00001100<br><br>
+                                        <mark> Number = -12</mark> <br><br> Binary = 1100 <br>8 bit representation :
+                                        00001100 <br> take complement : 11110011<br><br>
+                                    </td>
+
                                 </tr>
                                 <tr>
-                                    <th>Represent signed number in  2's complement form  </th>
+                                    <th>Represent signed number in 2's complement form </th>
                                 </tr>
                                 <tr>
-                                    <td><mark>Number = 12 </mark><br><br> Binary = 1100 <br>8 bit representation : 00001100 <br> not take complement : 00001100<br><br>
-                                        <mark> Number = -12</mark> <br><br> Binary = 1100 <br>8 bit representation : 00001100 <br> take complement : 11110011 <br>add one to LSB : 11110100  <br><br>
-                                      </td>
-                                   
+                                    <td><mark>Number = 12 </mark><br><br> Binary = 1100 <br>8 bit representation :
+                                        00001100 <br> not take complement : 00001100<br><br>
+                                        <mark> Number = -12</mark> <br><br> Binary = 1100 <br>8 bit representation :
+                                        00001100 <br> take complement : 11110011 <br>add one to LSB : 11110100 <br><br>
+                                    </td>
+
                                 </tr>
                             </tbody>
                         </table>
@@ -231,7 +237,8 @@
                                 <tr>
                                     <td>Decimal equivalence of signed binary numbers expressed in <mark> 1's complement
                                             form</mark><br><br> eg: 11000000 & 00111111 </td>
-                                    <td>solve 1 <br> -2^7 + 2^6 = -128 + 64 = -64 + 1 <br> <mark> (add 1 , bcz signed bit is 1 means -ve)</mark>
+                                    <td>solve 1 <br> -2^7 + 2^6 = -128 + 64 = -64 + 1 <br> <mark> (add 1 , bcz signed
+                                            bit is 1 means -ve)</mark>
                                         <br><br>
                                         solve 2 <br> 2^5 + 2^4 + 2^3 + 2^2 + 2^1 = +63
                                     </td>
@@ -244,9 +251,130 @@
                             </tbody>
                         </table>
                     </div><br><br>
+                    <b class="red r4-h2">Floating Point Representation </b><br><br>
+                    <p>
+                        The IEEE Standard for Floating-Point Arithmetic (IEEE 754) is a technical standard for
+                        floating-point arithmetic established in 1985 by the Institute of Electrical and Electronics
+                        Engineers (IEEE). The standard addressed many problems found in the diverse floating-point
+                        implementations that made them difficult to use reliably and portably. Many hardware
+                        floating-point units use the IEEE 754 standard.<br><br>
 
 
+                    </p>
+                    <div class="table-responsive">
+                        <table class="mx-auto">
+                            <tbody>
+                                <tr>
+                                    <th>Precision </th>
+                                    <th>Base </th>
+                                    <th>Sign </th>
+                                    <th>Exponent </th>
+                                    <th>Significand </th>
+                                </tr>
+                                <tr>
+                                    <th>Single precision </th>
+                                    <td>2 </td>
+                                    <td>1 </td>
+                                    <td>8 </td>
+                                    <td>23+1 </td>
+                                </tr>
+                                <tr>
+                                    <th>Double precision </th>
+                                    <td>2 </td>
+                                    <td>1 </td>
+                                    <td>11 </td>
+                                    <td>52+1 </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><br><br>
+                    <p>
+                        A finite number can also represented by four integers components, a sign (s), a base (b), a
+                        significand (m), and an exponent (e).
+                        <br>
+                        Depending on base and the number of bits used to encode various components, the IEEE 754
+                        standard defines five basic formats. Among the five formats, the binary32 and the binary64
+                        formats are single precision and double precision formats respectively in which the base is 2.
+                        <br>
 
+
+                    </p>
+                    <b>Single Precision Format (32 bit)</b><br>
+
+                    <ul>
+                        <li>23 bits for significant </li>
+                        <li>8 bits for exponent </li>
+                        <li>1 bit for sign </li>
+                    </ul>
+                    <img src="library/img/ieee_single.png" class="mx-auto d-block img-fluid"><br><br>
+
+                    <div class="table-responsive">
+                        <table class="mx-auto">
+                            <tbody>
+                                <tr>
+                                    <th>To convert the decimal into floating point, we have 3 elements in a 32-bit
+                                        floating point representation </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <ul>
+                                            <li>Sign (MSB) </li>
+                                            <li>Exponent (8 bits after MSB) </li>
+                                            <li>Mantissa (Remaining 23 bits </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Number : 17 <br><br>
+                                        Binary : 10001 <br>
+                                        Normalizing : 1.0001 : (1.001 x 2^4)<br>
+                                        Sign bit : 0 <br>
+                                        Exponant : 4 + 127 (bias) = 131 =
+                                        10000011<br>
+                                        Mantisa : 0001...
+                                        add zeros.<br>
+                                        &nbsp;&nbsp;00010000000000000000000<br>
+                                        Representation : (sign exp man) <br><br>
+                                        <mark>0 10000011 00010000000000000000000 </mark>
+                                        <br><br>
+                                        <mark>NB: 1 is omitted from the mantissa's actual storage because it is
+                                            redundant. </mark>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>To convert the floating point into decimal, we have 3 elements in a 32-bit
+                                        floating point representation </th>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <ul>
+                                            <li>Sign (MSB) </li>
+                                            <li>Exponent (8 bits after MSB) </li>
+                                            <li>Mantissa (Remaining 23 bits </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Number : 0 10000011 00010000000000000000000<br>
+                                        <br>
+                                        Sign : +ve<br>
+                                        Exponant : 131 (10000011) - 127 = 4<br>
+                                        Mantisa : 0001<br>
+                                        Represetation : + 1.0001 x 2^4 = 10001 =17 <br>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><a
+                                            href="http://cstl-csm.semo.edu/xzhang/Class%20Folder/CS280/Workbook_HTML/FLOATING_tut.htm#:~:text=The%20sign%20of%20a%20binary,bit%20indicates%20a%20positive%20number.&text=Before%20a%20floating%2Dpoint%20binary,its%20mantissa%20must%20be%20normalized.">More
+                                            Information </a></th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div><br><br>
 
                     <b class="red r4-h2">Logic gates </b><br><br>
                     <p>
