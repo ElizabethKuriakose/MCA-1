@@ -53,6 +53,21 @@ mark{
 }
 
 
+.link{
+  color:white;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 12px;
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+  
+  
+}
+.white{
+  color: red;
+}
 
 /*...........................button................................................................*/
 
