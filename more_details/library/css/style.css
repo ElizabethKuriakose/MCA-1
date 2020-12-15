@@ -141,3 +141,8 @@ mark{
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+
+  /*............python..........*/
+  .bg-y{
+    background-color: yellow;
+  }
